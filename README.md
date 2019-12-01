@@ -25,4 +25,4 @@ This boilerplate assumes a few things:
 
 * The `phpcs` package is installed in the project: `composer require --dev "squizlabs/php_codesniffer=*"`. Our recommended PHP CS configuration can be [found here](https://github.com/ohseesoftware/phpcs-config).
 * The `phpunit` package is installed in the project: `composer require --dev phpunit/phpunit`
-* The project uses `semantic-release` for the release project. This means you can use a `.releaserc` file in the root of the project to control `semantic-release`.
+* The project uses `semantic-release` for the release project. It uses `npx`, so you don't have to install anything into the project. You can use a `.releaserc` file in the root of the project to configure `semantic-release`.
